@@ -24,6 +24,10 @@ but we've made a pretty cool one using Scene Builder.
 
 haven't it ^"
 
+![Alt text](https://drive.google.com/open?id=0B6-hfcTZET2ZSmtsV0lZRVV3RUE?raw=true)
+
+
+
 The main purpose of the project is to ensure that you've understand the main concept of TCP connecting in networking,
 so our app is simple and need some improvement, for example:
 
