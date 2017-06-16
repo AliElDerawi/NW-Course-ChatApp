@@ -24,6 +24,8 @@ but we've made a pretty cool one using Scene Builder.
 
 haven't it ^"
 
+![chat app screen](https://user-images.githubusercontent.com/29453925/27226207-8a4e976c-52a6-11e7-842d-ace6f472a050.jpg)
+
 The main purpose of the project is to ensure that you've understand the main concept of TCP connecting in networking,
 so our app is simple and need some improvement,
 ## for example:
@@ -36,7 +38,7 @@ This is an important step if you want to develop a chat app for non-learning pur
 
 The project has included comments that describe most of steps taken while developing it, also we didn't
 remove the trace code (PrintStream in the console) founded in many methods,
-they're helpful to understand the code and debug it.feel free to delete them!
+they're helpful to understand the code and debug it.Feel free to delete them!
 
 Feel free to upgrade the code, and incorporate with us!
 
