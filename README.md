@@ -1,9 +1,9 @@
-This desktop chat app is for learning purpose only.
+## This desktop chat app is for learning purpose only.
 
 It was developed to apply TCP network communication terminology while learning it in a network course at Islamic University of Gaza,
 under the supervision of associate professor Dr. Aiman Abu Samra.
 
-The App was implemented in java and have the following features: 
+### The App was implemented in java and have the following features: 
 
 1-	Multiple simultaneous clients (Multithread), and each client have a unique ID.
 
@@ -24,12 +24,9 @@ but we've made a pretty cool one using Scene Builder.
 
 haven't it ^"
 
-![Alt text](https://drive.google.com/open?id=0B6-hfcTZET2ZSmtsV0lZRVV3RUE?raw=true)
-
-
-
 The main purpose of the project is to ensure that you've understand the main concept of TCP connecting in networking,
-so our app is simple and need some improvement, for example:
+so our app is simple and need some improvement,
+## for example:
 
 1- We should provide a separate screen for logging, allowing users to enter their nick name, profile picture and so on.
 
@@ -45,7 +42,7 @@ Feel free to upgrade the code, and incorporate with us!
 
 This project was done with my dear classmate Momen Zaqout (momenzaqout@gmail.com).
 
-Important Note: 
+## Important Note: 
 
 You should run the server class before running client class.
 
