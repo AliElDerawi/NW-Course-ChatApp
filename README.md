@@ -27,11 +27,11 @@ haven't it ^"
 The main purpose of the project is to ensure that you've understand the main concept of TCP connecting in networking,
 so our app is simple and need some improvement, for example:
 
-1-We should provide a separate screen for logging, allowing users to enter their nick name, profile picture and so on.
+1- We should provide a separate screen for logging, allowing users to enter their nick name, profile picture and so on.
 
 This is an important step if you want to develop a chat app for non-learning purpose, and prevent unique user name problem.
 
-2-For unique group name problem, we have a solution for it, but we didn't provide it in the code, if we decided to upgrade the code, we will include it.
+2- For unique group name problem, we have a solution for it, but we didn't provide it in the code, if we decided to upgrade the code, we will include it.
 
 The project has included comments that describe most of steps taken while developing it, also we didn't
 remove the trace code (PrintStream in the console) founded in many methods,
