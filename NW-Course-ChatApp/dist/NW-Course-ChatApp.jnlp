@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="NW-Course-ChatApp.jnlp">
+  <information>
+    <title>NW-Course-ChatApp</title>
+    <vendor>Ali Sama</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="NW-Course-ChatApp.jar" size="238343" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="NW-Course-ChatApp" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="chatappfn01.client"  name="NW-Course-ChatApp" />
+  <update check="always"/>
+</jnlp>

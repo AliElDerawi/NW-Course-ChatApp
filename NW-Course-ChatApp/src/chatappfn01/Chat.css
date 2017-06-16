@@ -1,0 +1,105 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    
+    Author    Ali El-Derawi @ Momen Zaqout
+*/
+
+.root{
+
+
+   -fx-background-image: url("Chat.jpg");  
+    -fx-spacing: 35;
+    -fx-padding: 15;
+
+ 
+   
+}
+
+
+#addMe{
+-fx-font-size: 15px;
+-fx-font-weight: bold;
+}
+
+
+.label{
+    
+-fx-text-fill:#001f3f ;
+-fx-font-family: "Times New Roman";
+-fx-font-size: 18px;
+}
+
+
+
+
+
+#wel{
+    -fx-font-size: 20px;
+    -fx-font-family: "Lucida Calligraphy" ;
+}
+
+#chooseDateLabel{
+-fx-font-family: "Arial";
+-fx-font-size:15px;
+-fx-text-fill:navy;
+}
+
+
+.text-field {
+-fx-font-family: "arial";
+ -fx-font-size: 13px;
+-fx-border-radius: 5;
+-fx-border: #C19A6B;
+}
+
+.radio-button
+{
+-fx-font-family: "Arial";
+-fx-font-size:14px;
+   -fx-text-fill:navy;
+-fx-cursor: hand;
+}
+
+
+.button{
+   -fx-background-color:#5B74A8;
+    -fx-background-insets: 0,1,2,0;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Arial";
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 13px;
+ -fx-background-radius: 5,4,3,5;
+   -fx-border-radius: 15;
+    -fx-padding: 7 15 7 15;
+    -fx-cursor: hand;
+-fx-font-weight: bold;
+}
+
+.button:hover{
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #C19A6B;
+}
+.button:pressed{
+    -fx-text-fill:#000000;
+    -fx-background-color: #ffff99;
+
+}
+
+.combo-box{
+    -fx-background-color: #ccccff;
+    -fx-alignment: CENTER;
+    -fx-cursor: hand;
+    
+}
+
+
+
+
+
+
+
+

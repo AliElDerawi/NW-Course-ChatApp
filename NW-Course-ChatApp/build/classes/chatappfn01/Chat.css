@@ -1,0 +1,317 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    
+    Author    Ali El-Derawi @ Momen Zaqout
+*/
+
+.root{
+
+
+   -fx-background-image: url("Chat.jpg");  
+    -fx-spacing: 35;
+    -fx-padding: 15;
+
+ 
+   
+}
+
+#error{
+    -fx-font-size: 12px;
+    -fx-font-family: "SketchFlow Print";
+    -fx-text-fill:red ;
+}
+
+#addMe{
+-fx-font-size: 15px;
+-fx-font-weight: bold;
+}
+
+#tabPaneBackground{
+-fx-background-image: url("Wood.png");  
+}
+
+
+
+
+.label{
+    
+-fx-text-fill:#001f3f ;
+-fx-font-family: "Times New Roman";
+-fx-font-size: 18px;
+}
+
+
+
+#Welcome{
+    -fx-font-size: 27px;
+    -fx-font-family: "Lucida Calligraphy" ;
+
+}
+
+#wel{
+    -fx-font-size: 20px;
+    -fx-font-family: "Lucida Calligraphy" ;
+}
+
+#chooseDateLabel{
+-fx-font-family: "Arial";
+-fx-font-size:15px;
+-fx-text-fill:navy;
+}
+
+#errorMessage {
+-fx-text-fill:crimson;
+}
+
+.text-field {
+-fx-font-family: "arial";
+ -fx-font-size: 13px;
+-fx-border-radius: 5;
+-fx-border: #C19A6B;
+}
+
+#test{
+-fx-font-size: 20px;
+}
+#Message{
+-fx-font-size: 22px;
+}
+
+.text-field:error {
+  -fx-text-box-border: red ;
+  -fx-focus-color: red ;
+}
+
+
+.menu-bar {
+-fx-cursor: default; 
+-fx-text-align: center;
+-fx-background: transparent;
+-fx-border: none;
+-fx-color: white;
+-fx-text-shadow: none;
+-fx-background-color: none ;
+
+}
+
+.menu-bar .label{
+-fx-font-size: 22px;
+-fx-font-family: "arial";
+-fx-font-weight: bold;
+
+
+}
+
+
+.menu-item .label {
+   
+-fx-text-fill: black;
+-fx-font-family: "arial";
+-fx-font-size: 15px;
+
+
+
+}
+
+
+.menu-item:focused {
+     -fx-background-color: darkgray;
+}
+
+.menu-item:focused .label {
+    -fx-text-fill: blue;
+}
+
+.context-menu {
+    
+    -fx-background-color: #BE975B; 
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 0 6 6 6, 0 5 5 5, 0 4 4 4;
+    -fx-padding: 0.666667em 0.083333em 0.666667em 0.083333em;  
+    -fx-padding: 0.333333em 0.083333em 0.666667em 0.083333em; 
+-fx-padding: 0.333333em 0.41777em 0.333333em 0.41777em;
+ 
+
+}
+
+.radio-button
+{
+-fx-font-family: "Arial";
+-fx-font-size:14px;
+   -fx-text-fill:navy;
+-fx-cursor: hand;
+}
+
+
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-opacity: 0;
+}
+
+.tab-pane
+{
+    -fx-tab-min-width:90px;
+
+}
+
+.tab{
+    -fx-background-insets: 0 1 0 1,0,0;
+}
+.tab-pane .tab
+{
+-fx-background-color: bisque;
+-fx-font-size: 18px;
+-fx-cursor: hand;
+
+}
+
+.tab-pane .tab:selected
+{
+
+-fx-background-color: burlywood;
+
+
+}
+
+.tab .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-font-size: 19px;
+    -fx-font-weight: bold;
+-fx-font-family: "arial";
+}
+
+.tab:selected .tab-label { 
+    -fx-alignment: CENTER;
+     -fx-text-fill:navy
+}
+
+.tab-pane:top *.tab-header-area {
+    -fx-background-insets: 0, 0 0 1 0;
+  -fx-padding: 0.416667em 0.166667em 0.0em 0.833em; 
+    -fx-padding: 0.416667em 0.166667em 0.0em 0.0em; 
+}
+.tab-pane:bottom *.tab-header-area {
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.416667em 0.166667em 0.0em 0.0em; 
+}
+.tab-pane:left *.tab-header-area {
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.416667em 0.166667em 0.0em 0.0em; 
+}
+
+.tab-pane:right *.tab-header-area {
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.416667em 0.166667em 0.0em 0.0em; 
+}
+
+
+
+.button{
+   -fx-background-color:#5B74A8;
+    -fx-background-insets: 0,1,2,0;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Arial";
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 13px;
+ -fx-background-radius: 5,4,3,5;
+   -fx-border-radius: 15;
+    -fx-padding: 7 15 7 15;
+    -fx-cursor: hand;
+-fx-font-weight: bold;
+}
+
+.button:hover{
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #C19A6B;
+}
+.button:pressed{
+    -fx-text-fill:#000000;
+    -fx-background-color: #ffff99;
+
+}
+
+
+
+#deleteMaterialButton:pressed{
+-fx-background-color: #ff0000;
+}
+
+#delete{
+    -fx-background-color: #ff0000;
+}
+
+#LogOut{
+    -fx-background-color: #ff0000;
+}
+
+
+.color-picker {
+    -fx-background-color: #669999; 
+    -fx-background-radius: 0 15 15 0; 
+   
+}
+.color-picker .color-picker-label .text {
+    -fx-fill: #ccffcc;
+}
+
+#my-table .table-column {
+    -fx-alignment: CENTER;
+    -fx-background-color: #ccccff;
+    -fx-cursor:hand;
+    
+    
+}
+.table-view .column-header, .table-view .filler {
+    -fx-size: 35;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: 
+        transparent
+        transparent
+        derive(-fx-base, 80%) 
+        transparent;
+    -fx-border-insets: 0 10 1 0;
+}
+
+.table-view .column-header .label {
+    -fx-font-family: "Times new roman ";
+-fx-font-size: 10pt;
+    -fx-alignment: center;
+    -fx-text-fill: white; 
+    -fx-opacity: 1;
+}
+
+
+
+.combo-box{
+    -fx-background-color: #ccccff;
+    -fx-alignment: CENTER;
+    -fx-cursor: hand;
+    
+}
+
+
+
+
+#gridpane{
+    -fx-border-color: white;
+    -fx-border-radius: 20;
+    -fx-padding: 10 10 10 10;
+    -fx-background-radius: 17;
+    -fx-background-color: #ffe4e1;
+}
+
+
+#Invalid_Input{
+    -fx-text-fill: #ff0000;
+    -fx-font-size: 20px;
+    -fx-font-family: "arial bold";
+}
+
+
+
+
+
