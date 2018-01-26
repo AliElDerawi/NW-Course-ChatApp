@@ -1,6 +1,6 @@
 ## This desktop chat app is for learning purpose only.
 
-It was developed to apply TCP network communication terminology while learning it in a network course at Islamic University of Gaza,
+It was developed to apply TCP network communication terminology while learning it in a network course at IUG,
 under the supervision of associate professor Dr. Aiman Abu Samra.
 
 ### The App was implemented in java and have the following features: 
